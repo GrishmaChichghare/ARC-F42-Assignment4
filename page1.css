@@ -4,7 +4,6 @@ body{
     background:#eef2f5;
 }
 
-/* Main container */
 .container{
     width:90%;
     margin:auto;
@@ -12,14 +11,12 @@ body{
     position:relative;
 }
 
-/* Title */
 h1{
     color:#2b4a8a;
     font-size:40px;
     margin-bottom:10px;
 }
 
-/* Paragraph */
 p{
     width:400px;
     color:#555;
@@ -27,7 +24,6 @@ p{
     line-height:1.5;
 }
 
-/* Logo right side */
 .logo{
     position:absolute;
     right:0;
@@ -39,14 +35,11 @@ p{
 .logo img{
     width:40px;
 }
-
-/* Image section */
 .image-section{
     display:flex;
     justify-content:center;
-    margin-top:60px;
 }
 
 .image-section img{
-    width:600px;
+    width:100%;
 }
