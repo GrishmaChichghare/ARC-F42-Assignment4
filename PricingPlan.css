@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: black;
+    color:white;
+}
+
+.pricing{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+h1{
+    color:#fd6335;
+    font-size:40px;
+}
+
+.sub{
+    margin-bottom:20px;
+    color: white;
+}
+
+.card-container{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background: #415161;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+    box-sizing: border-box;
+}
+.card:hover{
+    background-color: white;
+    color: black;
+}
+
+.card h2{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.card span{
+    font-size:14px;
+    color: orange;
+}
+
+.desc{
+    margin: 20px;
+    color: rgb(149, 149, 255);
+}
+
+ul{
+    padding-left: 40px;
+}
+
+ul li{
+    margin: 15px;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background: #040404;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+    text-decoration: underline;
+}
+
+.active{
+    background:#fa745a;
+    color:white;
+}
+
+@media (min-width:1300px){
+    .card-container{
+        max-width:1300px;
+        margin:auto;
+    }
+    .card{
+        width:32%;
+    }
+}
