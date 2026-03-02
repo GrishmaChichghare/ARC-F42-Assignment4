@@ -1,7 +1,7 @@
 body{
 margin:0;
 font-family:Arial, Helvetica, sans-serif;
-background:black;
+background: rgb(207, 207, 207);
 }
 
 .main-cont{
@@ -11,7 +11,7 @@ padding:30px;
 }
 
 h1{
-color: white;
+color: black;
 margin-bottom:30px;
 }
 
@@ -30,12 +30,12 @@ justify-content:center;
 align-items:center;
 border-radius:6px;
 font-weight:bold;
-border: 1px solid white; 
+border: 1px solid black; 
 }
 .card:hover{
     transition: all 0.2s ease-out;
-    box-shadow: 4px 4px 4px rgb(169, 156, 156);
-    border: 1px solid brown; 
+    box-shadow: 4px 4px 8px black;
+    border: 1px solid black; 
 }
 
 .red{background:#f87171;}
