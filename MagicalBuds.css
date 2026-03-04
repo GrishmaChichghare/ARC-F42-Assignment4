@@ -9,15 +9,17 @@ body {
     background: #0b0033;
 }
 
-.hero {
+.container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg, #140033, #0b0033);
+    background: linear-gradient(to right, rgb(189, 124, 2), rgb(166, 4, 4), rgb(93, 2, 2), black);
+    color:white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 8%;
     color: white;
+    
 }
 
 .content {
@@ -26,9 +28,10 @@ body {
 
 .content h5 {
     letter-spacing: 3px;
-    font-size: 14px;
-    color: #a084ff;
+    font-size: 18px;
+    color: #ae9de6;
     margin-bottom: 20px;
+    font-family: cursive;
 }
 
 .content h1 {
@@ -52,14 +55,13 @@ body {
     color: #000;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .content button:hover {
-    background: #ffd9a6;
+    background: white;
+    cursor: pointer;
 }
 
-/* Right Image */
 .image img {
-    width: 320px;
+    width: 600px;
 }
