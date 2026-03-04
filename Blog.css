@@ -8,7 +8,7 @@ body {
     padding: 40px 0;
 }
 
-.main-container {
+.main-cont {
     width: 1100px;
     background: #f5f5f5;
     padding: 40px;
@@ -22,12 +22,12 @@ body {
     font-size: 14px;
 }
 
-.main-title {
+.large-title {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.blog-container {
+.blog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px;
@@ -79,27 +79,30 @@ body {
     border-radius: 4px;
 }
 
-/* Background Images */
+.card button:hover{
+    background-color: rgba(128, 128, 128, 0.788);
+}
+
 .marketing {
-    background-image: url('images/plane.jpg');
+    background-image: url('assets/images/plane.jpg');
 }
 
 .coffee {
-    background-image: url('images/coffee.jpg');
+    background-image: url('assets/images/coffee.jpg');
 }
 
 .fruits {
-    background-image: url('images/fruits.jpg');
+    background-image: url('assets/images/fruits.jpg');
 }
 
 .laptop {
-    background-image: url('images/laptop.jpg');
+    background-image: url('assets/images/laptop.jpeg');
 }
 
 .nature {
-    background-image: url('images/nature.jpg');
+    background-image: url('assets/images/nature.jpg');
 }
 
 .interior {
-    background-image: url('images/interior.jpg');
+    background-image: url('assets/images/interior.jpg');
 }
