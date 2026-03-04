@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-cont{
+    height: 85vh;
+    background: linear-gradient(to right, rgb(23, 245, 23), orange, red, #930e4a, blue, #47097d, #07617a, black);
+    color:white;
+    padding: 0 120px;
+    position: relative;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.logo h2{
+    font-weight:600;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    gap:40px;
+    align-items:center;
+    font-weight:500;
+    cursor:pointer;
+}
+
+.menu li:hover{
+    color: orange;
+    cursor:pointer;
+}
+.search-icon{
+    font-size:18px;
+}
+
+.search-icon img{
+    width: 30px;
+}
+
+.container{
+    text-align:center;
+    margin-top:80px;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container h1{
+    font-size:48px;
+    font-family: "Brush Script MT", cursive;
+    margin-bottom:20px;
+}
+
+.container p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.search-box{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.search-box input{
+    width:500px;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    outline:none;
+    font-size:16px;
+}
+
+.search-box button{
+    padding:15px 30px;
+    border:none;
+    border-radius:8px;
+    background:black;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.features{
+    height:40vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:0 120px;
+}
+
+.feature{
+    text-align:center;
+}
+
+.icon-box{
+    width:70px;
+    margin:0 auto 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:28px;
+}
+.icon-box img{
+    width: 60px;
+}
+
+.feature h3{
+    font-size:18px;
+    font-weight:500;
+}

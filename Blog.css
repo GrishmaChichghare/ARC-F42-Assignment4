@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #8aa6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.main-container {
+    width: 1100px;
+    background: #f5f5f5;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.small-title {
+    text-align: center;
+    letter-spacing: 4px;
+    color: gray;
+    font-size: 14px;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.card {
+    position: relative;
+    border-radius: 15px;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.large-card {
+    grid-column: span 2;
+    height: 280px;
+}
+
+.small-card {
+    height: 230px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    border-radius: 15px;
+}
+
+.card h2,
+.card button {
+    position: relative;
+    z-index: 1;
+}
+
+.card button {
+    width: 100px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Background Images */
+.marketing {
+    background-image: url('images/plane.jpg');
+}
+
+.coffee {
+    background-image: url('images/coffee.jpg');
+}
+
+.fruits {
+    background-image: url('images/fruits.jpg');
+}
+
+.laptop {
+    background-image: url('images/laptop.jpg');
+}
+
+.nature {
+    background-image: url('images/nature.jpg');
+}
+
+.interior {
+    background-image: url('images/interior.jpg');
+}
